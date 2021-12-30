@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.MuiPaper-root {
+  width: 45vw;
+  margin: 5px;
+}
+
+#homes {
+  display: flex;
+  flex-wrap: wrap;
+}
