@@ -3,7 +3,7 @@ import { CardMedia, Card } from "@mui/material";
 import { Star } from "@mui/icons-material";
 
 const PropertyCard = (props) => {
-  let superHost = props.sh ? <em>SuperHost</em> : <></>
+  let superHost = props.sh ? <em class="sh-text">SuperHost</em> : <></>
   return(
   <Card>
     <CardMedia
@@ -24,10 +24,9 @@ const PropertyCard = (props) => {
     </p>
     <p>
       Rating: <em>{props.rating} <Star /></em>
-      <em class='sh-text'>
+      
       {superHost} 
-      </em>
-    </p>
+     </p>
   </Card>
   )
 };
