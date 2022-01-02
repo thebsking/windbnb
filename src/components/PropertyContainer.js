@@ -13,6 +13,7 @@ const PropertyContainer = () => {
                 title={house.title}
                 rating={house.rating}
                 type={house.type}
+                sh={house.superHost}
             />
             </>
         })

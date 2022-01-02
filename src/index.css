@@ -21,3 +21,9 @@ code {
   display: flex;
   flex-wrap: wrap;
 }
+
+.sh-text {
+  color: red;
+  float: right;
+  margin-right: 5px;
+}
